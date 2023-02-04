@@ -1,0 +1,22 @@
+#> ai:input/d
+
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 1 run function ai:challenges/1/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 2 run function ai:challenges/2/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 3 run function ai:challenges/3/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 4 run function ai:challenges/4/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 5 run function ai:challenges/5/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 6 run function ai:challenges/6/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 7 run function ai:challenges/7/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 8 run function ai:challenges/8/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 9 run function ai:challenges/9/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 10 run function ai:challenges/10/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 11 run function ai:challenges/11/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 12 run function ai:challenges/12/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 13 run function ai:challenges/13/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 14 run function ai:challenges/14/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 15 run function ai:challenges/15/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 16 run function ai:challenges/16/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 17 run function ai:challenges/17/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 18 run function ai:challenges/18/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 19 run function ai:challenges/19/d
+execute if score AI.Status AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 20 run function ai:challenges/20/d
