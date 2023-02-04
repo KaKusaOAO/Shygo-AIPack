@@ -25,6 +25,9 @@ execute if score AI.ChallengeIndex AI.Main matches 18 run function ai:challenges
 execute if score AI.ChallengeIndex AI.Main matches 19 run function ai:challenges/19/start
 execute if score AI.ChallengeIndex AI.Main matches 20 run function ai:challenges/20/start
 
+# Change the state to 2 (Question)
+scoreboard players set AI.State AI.Main 2
+
 # Announce the title
 title @a times 0 100 20
 title @a title {"translate":"第 %s 題","with":[{"score":{"objective":"AI.Main","name":"AI.ChallengeIndex"}}]}

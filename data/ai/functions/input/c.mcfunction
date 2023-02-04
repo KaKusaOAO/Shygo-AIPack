@@ -20,3 +20,6 @@ execute if score AI.State AI.Main matches 2 if score AI.ChallengeIndex AI.Main m
 execute if score AI.State AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 18 run function ai:challenges/18/c
 execute if score AI.State AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 19 run function ai:challenges/19/c
 execute if score AI.State AI.Main matches 2 if score AI.ChallengeIndex AI.Main matches 20 run function ai:challenges/20/c
+
+# Invoke the on_answer handler
+execute if score AI.State AI.Main matches 2 run function ai:challenges/on_answer
