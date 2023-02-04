@@ -27,7 +27,7 @@ execute if score AI.ChallengeIndex AI.Main matches 20 run function ai:challenges
 
 # Announce the title
 title @a times 0 100 20
-title @a title {"translate":"第 %s 題","with":[{"score":{"objective":"AI.Main","name": "AI.ChallengeIndex"}}]}
+title @a title {"translate":"第 %s 題","with":[{"score":{"objective":"AI.Main","name":"AI.ChallengeIndex"}}]}
 
 # Sound FX
 execute as @a at @s run playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
