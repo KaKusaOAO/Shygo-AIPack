@@ -16,4 +16,4 @@
 # Can be any challenge index starting by 1.
 
 scoreboard objectives add AI.Main dummy
-scoreboard players set AI.MaxChallengeIndex AI.Main 15
+scoreboard players set AI.MaxChallengeIndex AI.Main 18
