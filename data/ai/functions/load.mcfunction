@@ -12,13 +12,11 @@
 # 3: Confirm Answer
 # 4: End
 
+# AI.Failures: Keep track of player failures
+# This is added once every time the player chooses wrong answers
+
 # AI.ChallengeIndex: Keep track of the current challenge index
 # Can be any challenge index starting by 1.
 
 scoreboard objectives add AI.Main dummy
 scoreboard players set AI.MaxChallengeIndex AI.Main 18
-
-# Player failure objective
-# - How many times a player chooses wrong answers
-
-scoreboard objectives add AI.ChallengeFailure dummy

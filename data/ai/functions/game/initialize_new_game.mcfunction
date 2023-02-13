@@ -1,8 +1,8 @@
 #> ai:game/initialize_new_game
 # Called when the state is 1 (Intro) and the player stepped on the `next` pressure plate.
 
-# Reset all players' statistics
-scoreboard players reset @a AI.ChallengeFailure
+# Reset all statistics
+function ai:game/reset_statistics
 
 # Set to state 2 (Question)
 scoreboard players set AI.State AI.Main 2

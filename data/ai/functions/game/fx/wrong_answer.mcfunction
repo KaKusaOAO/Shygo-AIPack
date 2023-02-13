@@ -10,4 +10,5 @@ execute as @a at @s run playsound block.anvil.place player @s ~ ~ ~ 1 1
 execute as @a at @s run playsound entity.villager.no player @s ~ ~ ~ 1 1
 
 # Add failure record once
-scoreboard players add @a AI.ChallengeFailure 1
+scoreboard players add AI.Failures AI.Main 1
+scoreboard players add AI.FailureThisRound AI.Main 1

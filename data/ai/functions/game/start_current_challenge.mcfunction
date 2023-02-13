@@ -26,6 +26,9 @@ execute if score AI.ChallengeIndex AI.Main matches 16 run function ai:challenges
 execute if score AI.ChallengeIndex AI.Main matches 17 run function ai:challenges/17/start
 execute if score AI.ChallengeIndex AI.Main matches 18 run function ai:challenges/18/start
 
+# Reset the failure indicator
+scoreboard players set AI.FailureThisRound AI.Main 0
+
 # Change the state to 2 (Question)
 scoreboard players set AI.State AI.Main 2
 
