@@ -17,3 +17,8 @@
 
 scoreboard objectives add AI.Main dummy
 scoreboard players set AI.MaxChallengeIndex AI.Main 18
+
+# Player failure objective
+# - How many times a player chooses wrong answers
+
+scoreboard objectives add AI.ChallengeFailure dummy
