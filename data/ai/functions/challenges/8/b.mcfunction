@@ -1,1 +1,3 @@
-#> ai:challenges/2/b
+#> ai:challenges/8/b
+
+function ai:game/fx/correct_answer

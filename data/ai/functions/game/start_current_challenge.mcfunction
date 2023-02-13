@@ -3,7 +3,10 @@
 # Reset the item frames
 function ai:game/reset_challenge_board
 
-# Setup the challenge based on the current index
+# Print the separator
+tellraw @a {"text":"========================"}
+
+# Setup the challenge based on the current index and print the options
 execute if score AI.ChallengeIndex AI.Main matches 1 run function ai:challenges/1/start
 execute if score AI.ChallengeIndex AI.Main matches 2 run function ai:challenges/2/start
 execute if score AI.ChallengeIndex AI.Main matches 3 run function ai:challenges/3/start
@@ -22,8 +25,6 @@ execute if score AI.ChallengeIndex AI.Main matches 15 run function ai:challenges
 execute if score AI.ChallengeIndex AI.Main matches 16 run function ai:challenges/16/start
 execute if score AI.ChallengeIndex AI.Main matches 17 run function ai:challenges/17/start
 execute if score AI.ChallengeIndex AI.Main matches 18 run function ai:challenges/18/start
-execute if score AI.ChallengeIndex AI.Main matches 19 run function ai:challenges/19/start
-execute if score AI.ChallengeIndex AI.Main matches 20 run function ai:challenges/20/start
 
 # Change the state to 2 (Question)
 scoreboard players set AI.State AI.Main 2

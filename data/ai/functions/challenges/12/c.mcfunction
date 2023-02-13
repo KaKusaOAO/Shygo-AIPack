@@ -1,1 +1,3 @@
-#> ai:challenges/2/c
+#> ai:challenges/12/c
+
+function ai:game/fx/wrong_answer
