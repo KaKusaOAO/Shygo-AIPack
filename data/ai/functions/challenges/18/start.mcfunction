@@ -10,7 +10,8 @@ execute positioned 1 77 30 run data modify entity @e[type=item_frame,limit=1,sor
 execute positioned 0 77 30 run data modify entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.map set value 169
 execute positioned -1 77 30 run data modify entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.map set value 170
 
-tellraw @a {"text":"A: "}
-tellraw @a {"text":"B: "}
-tellraw @a {"text":"C: "}
+# D
+tellraw @a {"text":"A: ","extra":[{"translate":"entity.minecraft.bat"}]}
+tellraw @a {"text":"B: ","extra":[{"translate":"entity.minecraft.iron_golem"}]}
+tellraw @a {"text":"C: ","extra":[{"translate":"entity.minecraft.cow"}]}
 tellraw @a {"text":"D: ","extra":[{"translate":"entity.minecraft.shulker"}]}

@@ -13,3 +13,4 @@ execute as @a at @s run playsound entity.villager.yes player @s ~ ~ ~ 1 1
 scoreboard players set AI.State AI.Main 3
 
 execute if score AI.FailureThisRound AI.Main matches 0 run scoreboard players add AI.OncePassCount AI.Main 1
+execute if score AI.FailureThisRound AI.Main matches 1.. run scoreboard players add AI.Failures AI.Main 1
